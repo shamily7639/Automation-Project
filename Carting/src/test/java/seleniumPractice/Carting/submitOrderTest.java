@@ -31,7 +31,7 @@ public class submitOrderTest extends BaseTest {
 	public void submitOrder(HashMap<String,String>data) throws IOException {
 		//String productname = "ZARA COAT 3";
 
-		
+		System.out.println("demo of git develop");
 
 		ProductsPage ProductsPage = page.loginApplication(data.get("email"), data.get("password"));
 
